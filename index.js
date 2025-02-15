@@ -5,7 +5,7 @@ let port = 8080;
 
 
 
-app.get( "/search", (req,res) =>{
+app.use((req,res) =>{
     res.send("hello");
 })
 
